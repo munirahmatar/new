@@ -10,7 +10,7 @@
     "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
     "test1": "ng test --watch=false",
     "test": "ng test --watch=false --browsers ChromeHeadless",
-    "lint": "ng lint",
+    "lint": "ng lint --fix=true",
     "e2e": "ng e2e"
   },
   
